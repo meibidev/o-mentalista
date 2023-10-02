@@ -1,0 +1,92 @@
+body {
+    font-family: "Amatic SC", cursive;
+    min-height: 600px;
+  
+    background-image: url("https://images.unsplash.com/photo-1502919280275-1bed9aca68ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-color: #0a1a17;
+    background-size: 50%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffb65c;
+    margin-top: 50vh;
+    margin: 0 0 5px;
+    font-family: "WindSong", cursive;
+    font-weight: 500;
+    font-size: 100px;
+    text-shadow: 2px 2px #8c651c;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 10px 4px;
+    border-radius: 0px;
+    border-width: 0px;
+    border-radius: 25px 0% 0% 25px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 12px;
+    margin-left: -8px;
+    background: #ba8b41;
+    border-width: 0px;
+    font-family: "Alef", sans-serif;
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 0% 25px 25px 0%;
+  }
+  
+  .resultado {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 20vw;
+    font-family: "Splash", cursive;
+    font-size: 60px;
+  }
+  
+  .quadro {
+    padding-bottom: 105px;
+    background-color: #0a1a17;
+    background-size: 250px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  
