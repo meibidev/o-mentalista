@@ -1,4 +1,4 @@
-#O Mentalista
+# O Mentalista
 
 _Joguinho de adivinhação feito durantea a Imersão Dev da Alura_
 
